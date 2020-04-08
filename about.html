@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,900|Raleway:300,400,500,600,700,800,900|Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet "type="text/css" href="sample.css">
+    <link rel="stylesheet "type="text/css" href="about.css">
+    <link rel="stylesheet "type="text/css" href="contact.css">
+  	<script src="script.js"></script>
+    <script src="contact.js"></script>
+  </head>
+  <body>
+    <div class="about-nav-bar">
+    	<div class="dropdown position-one">
+      	<button onclick="myFunction()" class="dropbtn menu"><img src="2x/outline_menu_black_18dp.png"></button>
+      	<div id="myDropdown" class="dropdown-content">
+        	<a href="sample.html">Home</a>
+        	<a href="about.html">About</a>
+        	<a href="#services">Services</a>
+    			<a href="#portfolio">Portfolio</a>
+    			<a href="#team">Team</a>
+    			<a href="#pricing">Pricing</a>
+    			<a href="#dropdown">Dropdown</a>
+    			<a href="#contact">Contact</a>
+      	</div>
+    	</div>
+
+    		<div class="position-row-one position-two center-justify-text page-title"><h1>Vesperr</h1></div>
+    		<div class="nav-bar medium-font position-row-one position-three center-justify-text"><a href="sample.html">Home</a></div>
+    		<div class="nav-bar medium-font position-row-one position-four center-justify-text selected-nav"><a href="about.html">About</a></div>
+    		<div class="nav-bar medium-font position-row-one position-five center-justify-text"><a href="services.html">Services</a></div>
+    		<div class="nav-bar medium-font position-row-one position-six center-justify-text"><a href="#">Portfolio</a></div>
+    		<div class="nav-bar medium-font position-row-one position-seven center-justify-text"><a href="#">Team</a></div>
+    		<div class="nav-bar medium-font position-row-one position-eight center-justify-text"><a href="#">Pricing</a></div>
+    		<div class="nav-bar medium-font position-row-one position-nine center-justify-text">
+    			<div class="dropdown-two position-eight">
+    				<button onclick="myFunction2()" class="dropbtn-two">Dropdown</button>
+     				<div id="otherDropdown" class="dropdown-content-two">
+    	 				<a href="#">Link 1</a>
+    	 				<a href="#">Link 2</a>
+    	 				<a href="#">Link 3</a>
+              <a href="features.html">Features</a>
+    				</div>
+     			</div>
+    		</div>
+
+    		<!--<div class="nav-bar medium-font position-row-one position-ten center-justify-text"><a href="">Contact</a></div>-->
+        <div class="position-row-one position-ten nav-bar-padding">
+        <button class="dropbtn-two medium-font" onclick="openForm()">Contact</button>
+      </div>
+
+    <div class="form-popup" id="myForm">
+      <form action="" class="form-container">
+        <h1>Contact Us</h1>
+
+        <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Enter Name" name="name" required>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <button type="submit" class="btn">Send</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+      </form>
+    </div>
+
+    		<div class="nav-bar medium-font position-row-one position-eleven center-justify-text"><button type="button" class="dropbtn round-button" onclick="getStarted()">Get Started</button></div>
+
+        <!--
+      <div class="about-bar-left"><img src="about-bar.png"></div>
+      <div class="position-row-three about-header center-justify-text large-font bold color-black">About</div>
+      <div class="about-bar-right"><img src="about-bar.png"></div>
+      <div class="about-column-one small-font color-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
+      <div class="about-check-one"><img src="check.png">Ullamco laboris nisi ut aliquip ex ea commodo consequat</div>
+      <div class="about-check-two"><img src="check.png">Duis aute irure dolor in reprehenderit in voluptate velit</div>
+      <div class="about-check-three"><img src="check.png">Ullamco laboris nisi ut aliquip ex ea commodo consequat</div>
+
+      <div class=" about-column-two small-font color-gray">Ullamco laboris nisi ut aliquip ex ea commodo
+        consequat Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sintoccaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.<div><button class="dropbtn round-button">Learn More</button></div></div>
+
+      <!--<div class="position-row-five right-justify"><button class="dropbtn round-button">Get Started</button></div>-->
+      <!--<div class="position-row-two position-seven position-end-eleven"><img class="page-one-image" src="page1.jpg"></div>-->
+
+    </div>
+
+    <div class="about-page-container">
+      <div class="about-bar-left"><img src="images/about-bar.png"></div>
+      <div class="about-header large-font bold color-black">ABOUT US</div>
+      <div class="about-bar-right"><img src="images/about-bar.png"></div>
+
+      <div class="about-column-one small-font color-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
+          <div class=" about-column-two small-font color-gray">Ullamco laboris nisi ut aliquip ex ea commodo
+            consequat Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sintoccaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</div>
+
+            <div class="about-check-one"><img class="check-mark" src="images/check.png">Ullamco laboris nisi ut aliquip ex ea commodo consequat</div>
+            <div class="about-check-two"><img class="check-mark" src="images/check.png">Ullamco laboris nisi ut aliquip ex ea commodo consequat</div>
+            <div class="about-check-three"><img class="check-mark" src="images/check.png">Ullamco laboris nisi ut aliquip ex ea commodo consequat</div>
+            <div class="about-learn"><button class="dropbtn round-button">Learn More</button></div>
+
+            <div class="divider-bar"></div>
+
+
+            <div class="about-smiley-img"><img class="about-smiley-img" src="images/smiley-face.png"></div>
+            <div class="about-smiley-header">65</div>
+            <div class="about-smiley-content">blah</div>
+
+            <div class="about-time-img"><img class="about-time-img" src="images/time.png"></div>
+            <div class="about-time-header">12</div>
+            <div class="about-time-content">blah</div>
+
+            <div class="about-printer-img"><img class="about-printer-img" src="images/printer.png"></div>
+            <div class="about-printer-header">85</div>
+            <div class="about-printer-content">blah</div>
+
+            <div class="about-trophy-img"><img class="about-trophy-img" src="images/trophy.png"></div>
+            <div class="about-trophy-header">15</div>
+            <div class="about-trophy-content">blah</div>
+    </div>
+
+
+
+
+  </body>
+</html>
