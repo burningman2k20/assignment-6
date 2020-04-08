@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+	 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,900|Raleway:300,400,500,600,700,800,900|Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+	<title>Home</title>
+	<link rel="stylesheet "type="text/css" href="sample.css">
+	<link rel="stylesheet "type="text/css" href="contact.css">
+
+	<script src="script.js"></script>
+	<script src="contact.js"></script>
+	<!--<style media="screen">
+	.dropdown-submenu {
+		position: relative;
+	}
+
+	.dropdown-submenu .dropdown-menu {
+  	top: 0;
+  	left: 100%;
+  	margin-top: -1px;
+	}
+	</style>-->
+
+
+</head>
+<body>
+
+<div class="container">
+	<div class="dropdown position-one">
+  	<button onclick="myFunction()" class="dropbtn menu"><img src="2x/outline_menu_black_18dp.png"></button>
+  	<div id="myDropdown" class="dropdown-content">
+    	<a href="sample.html">Home</a>
+    	<a href="about.html">About</a>
+    	<a href="#services">Services</a>
+			<a href="#portfolio">Portfolio</a>
+			<a href="#team">Team</a>
+			<a href="#pricing">Pricing</a>
+			<a href="#dropdown">Dropdown</a>
+
+			<a href="#contact">Contact</a>
+  	</div>
+	</div>
+
+
+		<div class="position-row-one position-two center-justify-text page-title"><h1>Vesperr</h1></div>
+		<div class="nav-bar medium-font position-row-one position-three center-justify-text selected-nav"><a href="sample.html">Home</a></div>
+		<div class="nav-bar medium-font position-row-one position-four center-justify-text"><a href="about.html">About</a></div>
+		<div class="nav-bar medium-font position-row-one position-five center-justify-text"><a href="services.html">Services</a></div>
+		<div class="nav-bar medium-font position-row-one position-six center-justify-text"><a href="#">Portfolio</a></div>
+		<div class="nav-bar medium-font position-row-one position-seven center-justify-text"><a href="#">Team</a></div>
+		<div class="nav-bar medium-font position-row-one position-eight center-justify-text"><a href="#">Pricing</a></div>
+		<div class="nav-bar medium-font position-row-one position-nine center-justify-text">
+			<div class="dropdown-two position-nine">
+				<button onclick="myFunction2()" class="dropbtn-two">Dropdown</button>
+ 				<div id="otherDropdown" class="dropdown-content-two">
+	 				<a href="#">Link 1</a>
+	 				<a href="#">Link 2</a>
+	 				<a href="#">Link 3</a>
+					<a href="features.html">Features</a>
+				</div>
+ 			</div>
+		</div>
+
+		<!--<div class="nav-bar medium-font position-row-one position-ten center-justify-text"><a href="">Contact</a></div>-->
+		<div class="position-row-one position-ten nav-bar-padding">
+		<button class="dropbtn-two medium-font" onclick="openForm()">Contact</button>
+	</div>
+
+<div class="form-popup" id="myForm">
+  <form action="" class="form-container">
+    <h1>Contact Us</h1>
+
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+		<div class="nav-bar medium-font position-row-one position-eleven center-justify-text"><button type="button" class="dropbtn round-button" onclick="getStarted()">Get Started</button></div>
+
+		<div class="position-row-two right-justify large-font bold color-black">Grow your business with Vesperr</div>
+		<div class="position-row-three right-justify small-font color-gray">We are a team of talented designers making websites with kabootstrappers</div>
+
+		<div class="position-row-three right-justify"><button class="dropbtn round-button" onclick="getStarted()">Get Started</button></div>
+		<div class="position-row-two position-seven position-end-eleven"><img class="page-one-image" src="images/page1.jpg"></div>
+
+		<div class="position-row-four position-two logo-bg-color"><img class="logos colorize" src="images/myob.png"></div>
+		<div class="position-row-four position-three logo-bg-color"><img class="logos colorize" src="images/belimo.png"></div>
+		<div class="position-row-four position-four logo-bg-color"><img class="logos colorize" src="images/lifegroups.png"></div>
+		<div class="position-row-four position-five logo-bg-color"><img class="logos colorize" src="images/lilly-logo.png"></div>
+		<div class="position-row-four position-six logo-bg-color"><img class="logos colorize" src="images/citrus.png"></div>
+		<div class="position-row-four position-seven logo-bg-color"><img class="logos colorize" src="images/trustly.png"></div>
+</div>
+
+
+</body>
+
+</html>
